@@ -1,0 +1,23 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+*.obj
+
+# Ignore editor-specific files
+*.vscode/
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake build folders (if any)
+build/
+cmake-build-debug/
